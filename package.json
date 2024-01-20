@@ -1,0 +1,45 @@
+{
+  "name": "react-native-quit-app",
+  "version": "0.0.1",
+  "description": "Close ths react native app on Android and iOS.",
+  "main": "src/index",
+  "module": "src/index",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "src",
+    "android",
+    "ios",
+    "RNQuitApp.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "repository": "https://github.com/zsien/react-native-quit-app",
+  "author": "zsien <i@zsien.cn> (https://github.com/zsien)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zsien/react-native-quit-app/issues"
+  },
+  "homepage": "https://github.com/zsien/react-native-quit-app#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RNQuitAppSpec",
+    "type": "modules",
+    "jsSrcsDir": "src",
+    "android": {
+      "javaPackageName": "tech.zsien.RNQuitApp"
+    }
+  }
+}
