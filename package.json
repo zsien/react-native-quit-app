@@ -1,6 +1,6 @@
 {
   "name": "react-native-quit-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Close ths react native app on Android and iOS.",
   "main": "src/index",
   "module": "src/index",
