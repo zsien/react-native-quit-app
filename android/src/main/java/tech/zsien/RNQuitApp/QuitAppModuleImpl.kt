@@ -7,7 +7,7 @@ object QuitAppModuleImpl {
   const val NAME = "RNQuitApp"
 
   fun quitApp(reactContext: ReactApplicationContext) {
-    reactContext.getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter::class.java)
-      .emit("hardwareBackPress", null)
+    reactContext.getNativeModule(DeviceEventManagerModule::class.java)!!
+      .invokeDefaultBackPressHandler()
   }
 }
